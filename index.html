@@ -11,21 +11,21 @@
     
   </head>
   
-  <body translate="no" id="bod" style="background-color: rgb(253, 253, 253);">
+  <body translate="no" id="bod" style="background-color:whitesmoke">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
    
   
       <div class="body-header">
-          <div class="darksoul-toggle-container" id="container" style="box-shadow: rgb(242, 241, 241) 10px 10px 10px, rgb(242, 241, 241) -4px -7px 15px, rgb(255, 255, 255) 2px -5px 10px inset, yellow -10px -1px 5px inset;">
-              <div class="darksoul-toggle-border" id="border" style="background-color: rgb(255, 255, 255); box-shadow: rgb(236, 235, 235) 2px 5px 10px inset, rgb(254, 254, 1) -2px 0px 2px inset;">
-                  <div class="darksoul-toggle" id="toggle" onclick="{roll()}" style="animation: 1.5s ease 0s 1 normal forwards running roll; box-shadow: rgb(255, 255, 0) 5px 5px 500px inset, yellow 0.5px 0.5px 50px; border: 1px solid rgb(255, 255, 255); background-color: orange;">
+          <div class="ergo-toggle-container" id="container" style="box-shadow: rgb(242, 241, 241) 10px 10px 10px, rgb(242, 241, 241) -4px -7px 15px, rgb(255, 255, 255) 2px -5px 10px inset, yellow -10px -1px 5px inset;">
+              <div class="ergo-toggle-border" id="border" style="background-color: rgb(255, 255, 255); box-shadow: rgb(236, 235, 235) 2px 5px 10px inset, rgb(254, 254, 1) -2px 0px 2px inset;">
+                  <div class="ergo-toggle" id="toggle" onclick="{roll()}" style="animation: 1.5s ease 0s 1 normal forwards running roll; box-shadow: rgb(255, 255, 0) 5px 5px 500px inset, yellow 0.5px 0.5px 50px; border: 1px solid rgb(255, 255, 255); background-color: orange;">
             
                   </div>
               </div>
           </div>
       </div>
       
-      <div class="darksoul-kanban-board">
+      <div class="ergo-kanban-board">
           <div class="col" id="todo-col">
               <div class="heading">
                   <h4 id="heading" style="color: black;">To Do</h4>
@@ -35,10 +35,10 @@
                   
                   
                   
-                  <div class="darksoul-gradient-card-grey" id="2" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(223, 223, 223));">
+                  <div class="ergo-gradient-card-grey" id="2" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(223, 223, 223));">
                       <div class="card" style="background-color: white;">
                           <div class="header">
-                              <h5 class="grey">DarkSoul-ergo</h5>
+                              <h5 class="grey">ergo-ergo</h5>
                           </div>
                           <div class="content">
                               <h3 style="color: black;">Update About Page</h3>
@@ -53,10 +53,10 @@
                       </div>
                   </div>
                   
-              <div class="darksoul-gradient-card-purple" id="1" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(191, 191, 252));">
+              <div class="ergo-gradient-card-purple" id="1" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(191, 191, 252));">
                       <div class="card" style="background-color: white;">
                           <div class="header">
-                              <h5 class="purple">DarkSoul-Git</h5>
+                              <h5 class="purple">ergo-Git</h5>
                           </div>
                           <div class="content">
                               <h3 style="color: black;">Index Page Layout Change</h3>
@@ -77,10 +77,10 @@
               </div>
               <div class="wrapper" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
                   
-              <div class="darksoul-gradient-card-blue" id="3" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(191, 211, 252));">
+              <div class="ergo-gradient-card-blue" id="3" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(191, 211, 252));">
                       <div class="card" style="background-color: white;">
                           <div class="header">
-                              <h5 class="blue">DarkSoul-Git</h5>
+                              <h5 class="blue">ergo-Git</h5>
                           </div>
                           <div class="content">
                               <h3 style="color: black;">Add FAQ Schema.org</h3>
@@ -101,10 +101,10 @@
               </div>
               <div class="wrapper" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
                   
-              <div class="darksoul-gradient-card-green" id="4" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(207, 242, 165));">
+              <div class="ergo-gradient-card-green" id="4" draggable="true" ondragstart="drag(event)" style="background: linear-gradient(var(--gradient-angle),white, rgb(207, 242, 165));">
                       <div class="card" style="background-color: white;">
                           <div class="header">
-                              <h5 class="green">DarkSoul-ergo</h5>
+                              <h5 class="green">ergo-ergo</h5>
                           </div>
                           <div class="content">
                               <h3 style="color: black;">Provide Search Functionality</h3>
@@ -120,10 +120,10 @@
                   </div></div>
           </div>
       </div>
-      <div id="darksoul-modal" style="display: none;">
-          <div class="darksoul-modal-content" style="background-color: white; color: black;">
+      <div id="ergo-modal" style="display: none;">
+          <div class="ergo-modal-content" style="background-color: white; color: black;">
              
-              <div class="darksoul-modal-content-header">
+              <div class="ergo-modal-content-header">
                   <div class="header" style="margin-left: -4px;">
                           <h5 class="blue" id="preview" style="margin-top: 0px;">Insert - Task</h5>
                           <div class="color-picker purple" onclick="{purple()}"></div>
@@ -134,19 +134,40 @@
                   
                   <button type="button" onclick="modalclose()" class="modal-close-btn" style="background-image: url(&quot;https://img.icons8.com/external-creatype-glyph-colourcreatype/64/000000/external-close-essential-ui-v4-creatype-glyph-colourcreatype.png&quot;);"></button>
               </div>
-              <div class="darksoul-modal-content-main">
-                  <form class="darksoul-form">
-                      <label>Platform</label>
-                      <input id="platform" type="text" name="platform" value="" required="">
-                      <label>Task</label>
-                      <input id="task" type="text" name="task" required="">
-                      <label>Description</label>
-                      <textarea id="description" name="description"></textarea>
-                 
-              </form></div>
-              <div class="darksoul-modal-content-footer">
-                      <div class="darksoul-glowing-button2" style="background: linear-gradient(var(--gradient-angle), rgb(255, 255, 255), rgb(0, 0, 0));">
-                          <button class="darksoul-button2" type="submit" style="background-color: white; color: black;">
+
+              <div class="ergo-modal-content-main">
+                <form class="ergo-form">
+                    <label>Filed</label>
+                    <select id="dropdownFiled" name="dropdownFiled" class="ergo-select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                    
+                    <label>Tesk Type</label>
+                    <select id="dropdownTeskType" name="dropdownTeskType" class="ergo-select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                    
+                    <label>Tesk Name</label>
+                    <input id="platform" type="text" name="platform" value="" required="">
+                    
+                    <label>Description</label>
+                    <textarea id="description" name="description"></textarea>
+                    
+                    <label>Upload File</label>
+                    <input id="uploadFile" type="file" name="uploadFile" class="ergo-file">
+                    
+                    <label>Due date</label>
+                    <input id="Duedate" type="text" name="Duedate" required="">
+                </form>
+            </div>
+            
+              <div class="ergo-modal-content-footer">
+                      <div class="ergo-glowing-button2" style="background: linear-gradient(var(--gradient-angle), rgb(255, 255, 255), rgb(0, 0, 0));">
+                          <button class="ergo-button2" type="submit" style="background-color: white; color: black;">
                               Submit
                           </button>
                       
@@ -156,7 +177,7 @@
           </div>
       </div> 
       <div class="body-footer">
-          <h4 class="disclaimer">Designed &amp; Created by <a href="https://darksoul-ergo.github.io/" target="_blank" id="disclaimer" style="color: black;">DarkSoul</a></h4>
+          <h4 class="disclaimer">Designed &amp; Created by <a href="https://ergo-ergo.github.io/" target="_blank" id="disclaimer" style="color: black;">ergo</a></h4>
       </div>
          
 

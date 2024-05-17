@@ -14,7 +14,7 @@ function drop(ev) {
 }
 
 //Modal
-var m = document.getElementById("darksoul-modal");
+var m = document.getElementById("ergo-modal");
 
 function modal() {
     m.style.display = "flex";
@@ -66,13 +66,13 @@ var todo_col = document.getElementById("todo-col");
 
 var id = 5;
 
-$('.darksoul-form').on('submit', function () {
+$('.ergo-form').on('submit', function () {
     var div = document.getElementById("div1");
     var platform = document.getElementById("platform").value;
     var task = document.getElementById("task").value;
     var description = document.getElementById("description").value;
 
-    div.insertAdjacentHTML('beforeend', '<div class="darksoul-gradient-card-' + color + '" id="' + id + '" draggable="true" ondragstart="drag(event)"><div class="card"><div class="header"><h5 class="' + color + '">' + platform + '</h5></div><div class="content"><h3>' + task + '</h3><p>' + description + '</p></div><div class="footer"><div class="date"><img width="25" height="25" src="https://img.icons8.com/sf-black-filled/64/' + icon_color_code + '/calendar-plus.png" alt="calendar-plus"/><p>' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getUTCFullYear() + '</p></div></div></div></div>');
+    div.insertAdjacentHTML('beforeend', '<div class="ergo-gradient-card-' + color + '" id="' + id + '" draggable="true" ondragstart="drag(event)"><div class="card"><div class="header"><h5 class="' + color + '">' + platform + '</h5></div><div class="content"><h3>' + task + '</h3><p>' + description + '</p></div><div class="footer"><div class="date"><img width="25" height="25" src="https://img.icons8.com/sf-black-filled/64/' + icon_color_code + '/calendar-plus.png" alt="calendar-plus"/><p>' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getUTCFullYear() + '</p></div></div></div></div>');
     id = id + 1;
     return false;
 });
@@ -87,14 +87,14 @@ var plus = document.getElementById("plus");
 var card = document.getElementsByClassName("card");
 var tasktitle = document.getElementsByTagName("h3");
 var taskdesc = document.getElementsByTagName("p");
-var gradient_purple = document.getElementsByClassName("darksoul-gradient-card-purple");
-var gradient_grey = document.getElementsByClassName("darksoul-gradient-card-grey");
-var gradient_blue = document.getElementsByClassName("darksoul-gradient-card-blue");
-var gradient_green = document.getElementsByClassName("darksoul-gradient-card-green");
-var modal_content = document.getElementsByClassName("darksoul-modal-content");
+var gradient_purple = document.getElementsByClassName("ergo-gradient-card-purple");
+var gradient_grey = document.getElementsByClassName("ergo-gradient-card-grey");
+var gradient_blue = document.getElementsByClassName("ergo-gradient-card-blue");
+var gradient_green = document.getElementsByClassName("ergo-gradient-card-green");
+var modal_content = document.getElementsByClassName("ergo-modal-content");
 var modal_close_btn = document.getElementsByClassName("modal-close-btn");
-var modal_submit_btn = document.getElementsByClassName("darksoul-button2");
-var modal_submit_btn_glow = document.getElementsByClassName("darksoul-glowing-button2");
+var modal_submit_btn = document.getElementsByClassName("ergo-button2");
+var modal_submit_btn_glow = document.getElementsByClassName("ergo-glowing-button2");
 var flag = 0;
 
 function togglel() {

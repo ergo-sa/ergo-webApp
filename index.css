@@ -27,7 +27,7 @@
             width: 90%;
             display: flex;
        }
-        .darksoul-toggle-container
+        .ergo-toggle-container
         {
             width: 300px;
             height: 130px;
@@ -40,7 +40,7 @@
             transition: background-color 0.5s, box-shadow 0.5s;
             zoom: 0.2;
         }
-        .darksoul-toggle-border
+        .ergo-toggle-border
         {
             width: 300px;
             height: 130px;
@@ -51,7 +51,7 @@
             display: flex;
             transition: background-color 0.5s, box-shadow 0.5s;
         }
-        .darksoul-toggle
+        .ergo-toggle
         {
             margin: auto;
             margin-left: 15px;
@@ -63,7 +63,7 @@
             border-radius: 50%;
             transition: box-shadow 1s;
         }
-        .darksoul-toggle:hover
+        .ergo-toggle:hover
         {
             cursor: pointer;
          
@@ -86,7 +86,7 @@
                 transform: translateX(0px) rotate(0deg);
             }
         }
-        .darksoul-kanban-board
+        .ergo-kanban-board
         {
             margin: auto;
             width: 65%;
@@ -133,7 +133,7 @@
             width: 100%;
             overflow-y: auto;
         }
-        .darksoul-gradient-card-purple
+        .ergo-gradient-card-purple
         {
             margin: auto;
             margin-top: 20px;
@@ -146,7 +146,7 @@
             backdrop-filter: blur(50px);
             transition: all 1s;
         }
-        .darksoul-gradient-card-grey
+        .ergo-gradient-card-grey
         {
             margin: auto;
             margin-top: 20px;
@@ -159,7 +159,7 @@
             backdrop-filter: blur(50px);
             transition: all 1s;
         }
-        .darksoul-gradient-card-blue
+        .ergo-gradient-card-blue
         {
             margin: auto;
             margin-top: 20px;
@@ -172,7 +172,7 @@
             backdrop-filter: blur(50px);
             transition: all 1s;
         }
-        .darksoul-gradient-card-green
+        .ergo-gradient-card-green
         {
             margin: auto;
             margin-top: 20px;
@@ -197,7 +197,7 @@
             border-radius: 13px;
             cursor: pointer;
         }
-        .darksoul-gradient-card-purple:hover, .darksoul-gradient-card-grey:hover, .darksoul-gradient-card-blue:hover, .darksoul-gradient-card-green:hover
+        .ergo-gradient-card-purple:hover, .ergo-gradient-card-grey:hover, .ergo-gradient-card-blue:hover, .ergo-gradient-card-green:hover
         {
             transform: scale(0.98);
       
@@ -267,7 +267,7 @@
 
 
         /* Modals - Start */
-        #darksoul-modal
+        #ergo-modal
         {
             display: none;
             margin: auto;
@@ -276,7 +276,7 @@
             background-color: rgba(0, 0, 0, 0.652);
             position: fixed;
         }
-        .darksoul-modal-content
+        .ergo-modal-content
         {
             background-color: rgb(21, 21, 21);
             margin: auto;
@@ -301,7 +301,7 @@
             background-color: transparent;
             border: none;
         }
-        .darksoul-modal-content-header
+        .ergo-modal-content-header
         {
             display: flex;
             font-size: 20px;
@@ -344,29 +344,28 @@
             color: rgb(70, 98, 154);
             box-shadow: 1px 1px 20px rgb(191, 211, 252);
         }
-        .darksoul-modal-content-main
-        {
+        .ergo-modal-content-main {
             width: 100%;
             min-height: 300px;
             display: flex;
         }
-        .darksoul-form
-        {
+        
+        .ergo-form {
             margin: auto;
             display: flex;
             flex-direction: column;
             width: 100%;
             height: fit-content;
         }
-        label
-        {
+        
+        label {
             margin: auto;
             margin-left: 1px;
             margin-bottom: 10px;
             margin-top: 10px;
         }
-        input
-        {
+        
+        input, .ergo-select {
             margin: auto;
             height: 40px;
             width: 95%;
@@ -380,12 +379,12 @@
             font-family: 'Belanosima', sans-serif;
             background-color: white;
         }
-        input:focus
-        {
+        
+        input:focus, .ergo-select:focus {
             border: 2px solid rgb(168, 168, 254);
         }
-        textarea
-        {
+        
+        textarea {
             margin: auto;
             height: 150px;
             width: 95%;
@@ -400,18 +399,24 @@
             box-shadow: 0.1px 0.1px 3px rgb(138, 138, 255) inset;
             font-family: 'Belanosima', sans-serif;
         }
-        textarea:focus
-        {
+        
+        textarea:focus {
             border: 2px solid rgb(168, 168, 254);
         }
-        .darksoul-modal-content-footer
-        {
+        
+        .ergo-file {
+            background-color: white;
+            color: black;
+        }
+        
+        .ergo-modal-content-footer {
             width: 100%;
             height: fit-content;
             display: flex;
             margin-top: 10px;
         }
-
+        
+       
         /* Modals - End */
 
         /* width */
@@ -435,7 +440,7 @@
         width: 3px;
         }
         
-        .darksoul-glowing-button2
+        .ergo-glowing-button2
        {
             margin: auto;
             width: 100px;
@@ -445,7 +450,7 @@
             animation: rotation 3s linear 0s infinite;
             background: linear-gradient(var(--gradient-angle), rgb(255, 255, 255), rgba(0, 0, 0, 0));
         }
-        .darksoul-button2
+        .ergo-button2
        {
             width: 97%;
             height: 93%;
@@ -482,7 +487,7 @@
             {
                 overflow-y: auto;
             }
-        .darksoul-kanban-board
+        .ergo-kanban-board
         {
             margin: auto;
             width: 100%;
@@ -491,7 +496,7 @@
             display: flex;
             flex-direction: column;
         }
-        .darksoul-modal-content
+        .ergo-modal-content
         {
             background-color: white;
             margin: auto;
