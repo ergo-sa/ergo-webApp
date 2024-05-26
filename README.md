@@ -1,6 +1,7 @@
-### ∴ ergo-sa Overview
+# Welcome! Please find our;
+## Overview & Policies 
 
-**∴ ergo-sa** is an innovative web application that streamlines the process of posting and completing assignments, reports, exams, and projects for compensation. It offers a secure, user-friendly environment where users can request and fulfill academic or professional tasks. Acting as a mediator, ∴ ergo-sa ensures seamless and trustworthy transactions between users, maintaining anonymity and confidentiality to protect all parties involved.
+**∴ ergo-sa** is an innovative web application that streamlines the process of posting and completing assignments, reports, exams, projects, ect for compensation. It offers a secure, user-friendly environment where users can request and fulfill academic or professional tasks. Acting as a mediator, ∴ ergo-sa ensures seamless and trustworthy transactions between users, maintaining anonymity and confidentiality to protect all parties involved.
 
 ### Key Features:
 - **User Roles**: Users can act as both Requesters (posting tasks) and Replyers (fulfilling tasks).
@@ -40,8 +41,8 @@
    - The mediator with the highest likes/agreements on their comment will influence the final decision.
 
 #### 6. **Mediation Outcomes**
-   - If the work is found to be as requested, the Replyer receives 70% of the amount, and the mediator receives 30%.
-   - If the refund is granted, the Requester receives 70% of the amount, and the mediator receives 30% compensation based on their comment's likes/agreements.
+   - If the work is found to be as requested, the Replyer receives 60% of the amount, and the mediator receives 40%.
+   - If the refund is granted, the Requester receives 60% of the amount, and the mediator receives 40% compensation based on their comment's likes/agreements.
 
 #### 7. **Payment and Refunds**
    - Payments to Replyers and refunds to Requesters are processed based on the outcomes of the dispute resolution process.
@@ -93,7 +94,7 @@
 
 #### 19. **Support and Assistance**
    - Users can access customer support for any issues or queries through email, chat, or phone.
-   - ∴ ergo-sa aims to respond to all support requests within 24 hours.
+   - ∴ ergo-sa aims to respond to all support requests within 48 hours.
 
 #### 20. **Compliance with Laws**
    - Users must comply with all applicable local, national, and international laws and regulations while using ∴ ergo-sa.
